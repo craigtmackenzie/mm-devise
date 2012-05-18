@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "mm-devise/version"
 
 Gem::Specification.new do |s|
-  s.name        = "mm-devise"
+  s.name        = "cm_mm-devise"
   s.version     = MongoMapper::Devise::VERSION
   s.date        = "2011-06-01"
   s.summary     = %Q{Support for using MongoMapper ORM with devise}
@@ -18,6 +18,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'devise', '>= 1.2'
   # s.add_dependency 'rails3-generators', '>= 0.14.0'
   s.add_dependency 'sugar-high', '~> 0.4.3'
-  s.add_dependency "SystemTimer", "~> 1.2" if RUBY_VERSION < "1.9"
 
 end

@@ -24,9 +24,5 @@ group :default do
   gem "omniauth-openid", '~>1.0.0'
   gem "omniauth-facebook", '~>1.2.0'
 
-  platforms :mri_18 do
-    gem "SystemTimer"
-  end
-
 end
 
